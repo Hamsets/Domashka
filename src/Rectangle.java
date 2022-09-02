@@ -44,7 +44,5 @@ public class Rectangle {
         } else {
             return false;
         }
-
     }
-
 }
