@@ -22,5 +22,12 @@ public class Domashka5Osnovnaya {
 
         System.out.println("Сравним объект 2 с размерами сторон х " + r2.x + ", y " + r2.y + " и объект 3 с размерами сторон х " + r3.x + ", y " + r3.y);
         System.out.println("Результат - " + r2.isTheSameRectangle(r3));
+
+        System.out.println("_____________________________");
+        //Вывод количества экземпляров класса Прямоугольник
+        Rectangle.printRectanglesCount();
+
+        System.out.print("Вывод названия класса (русский) - ");
+        Rectangle.printClassName(true);
     }
 }
