@@ -31,7 +31,7 @@ public class Rectangle {
     @Override
     public boolean equals(Object r) {
         Rectangle rComp = (Rectangle) r;
-        if ((this.x == rComp.x) && (this.y == rComp.y)){
+        if (((this.x == rComp.x) && (this.y == rComp.y))||((this.y == rComp.x) && (this.x == rComp.y))){
             return true;
         } else {
             return false;
